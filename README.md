@@ -5,7 +5,7 @@
 [**wind23's OSINT Map**](https://wind23.nl/osint) is **an online tree** of selected useful tools **made for OSINT** purposes,\
 made to **help you during your investigations** 👀
 
-_It is an up-to-date and remastered version of osintframework.com, which isn't updated anymore.
+It is an up-to-date and remastered version of osintframework.com, which isn't updated anymore.
 ## 📥 Add a tool
 To add a tool to the map (on the original repo), follow [this guide](https://github.com/Malfrats/OSINT-Map/blob/main/ADD.md).
 ## 🏁 Legend
