@@ -3,7 +3,7 @@
   <!--Some part of this code is coming from the following code under MIT license:
   https://github.com/lockfale/OSINT-Framework/blob/master/public/index.html -->
   <head>
-    <title>Malfrat's OSINT Map</title>
+    <title>wind23's OSINT Map</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <link type="text/css" rel="stylesheet" href="css/style.css"/>
     <script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
@@ -16,18 +16,17 @@
 
   <body>
     <div id="header">
-      <a href="https://github.com/Malfrats/OSINT-Map" target="_blank"><img class="logo" src="assets/malfrats.png"/></a>
+      <a href="https://github.com/wind23nl/OSINT-Map" target="_blank"><img class="logo" src="assets/malfrats.png"/></a>
       <div class="top abstract">
         <p>
-          🎣 By <a href="https://twitter.com/malfratsind" target="_blank">@malfratsind</a><br>
+          🎣 By <a href="https://twitter.com/" target="_blank">@[PLACEHOLDER]</a><br>
           📌 From <a href="https://osintframework.com" target="_blank">osintframework.com</a><br>
         </p>
       </div>
-      <h1><u>Malfrat's OSINT Map</u></h1>
+      <h1><u>wind23's OSINT Map</u></h1>
       <div class="top right">
         <p>
-          Watch <a href="https://github.com/Malfrats/OSINT-Map" target="_blank">the repo</a> to not miss updates 👀<br>
-          You can also join our <a href="https://discord.gg/r3GMnHVx5H" target="_blank">Discord Server</a> 🕵️‍♂️
+          Watch <a href="https://github.com/Malfrats/OSINT-Map" target="_blank">the repo</a> to not miss updates 👀 (as chances are, this won't be updated often)<br>
         </p>
       </div>
     </div>
@@ -42,13 +41,13 @@
           <tr>
             <th class="column"><h2>📝 Project's Informations</h2></th>
             <th class="column"><h2>🏁 Tree Legend</h2></th>
-            <th class="column"><h2>💡 Suggestions & Feedback</h2></th>
+            <th class="column"><h2>💡 About</h2></th>
           </tr>
           <tr style="vertical-align: top;">
             <td class="column">
-              Since the OSINT world evolves fastly, its tools and methods must be updated often.
+              Since the OSINT world evolves quickly, its tools and methods must be updated often.
               <br><br>
-              The original project, <a href="https://osintframework.com" target="_blank">osintframework.com</a>, have not really been updated for a while now, so we decided to make our own version.<br><br>
+              The original project, <a href="https://osintframework.com" target="_blank">osintframework.com</a>, has not been updated for a while now, so it was time for a new map with the newest tools.<br><br>
             </td>
             <td class="column">
               <div class="legend">
@@ -66,17 +65,17 @@
               </div>
             </td>
             <td class="column">
-              If you are interested in adding new tools to our list,<br>follow <a href="https://github.com/Malfrats/OSINT-Map/blob/main/ADD.md">this tutorial</a>.
-              If a tool is outdated, let us now by creating a new issue on the <a href="https://github.com/Malfrats/OSINT-Map" target="_blank">repository</a>.
-              If a tool has a legend, name or url error, you can report it using the issue section as well.<br><br>
-              If you have any other suggestions, feel free to open an issue about it, contact us at <a href="https://twitter.com/malfratsind" target="_blank">@malfratsind</a> on Twitter or on our <a href="https://discord.gg/r3GMnHVx5H" target="_blank">Discord Server</a>.<br>
+              This site is based on Malfrats' OSINT Map, you can see the original repo <a href="https://github.com/Malfrats/OSINT-Map"> here </a>
+              <br><br>
+              I have a <a href="https://wind23.nl/blog"> blog </a>, if you want to go check it out (:
             </td>
         </tbody>
       </table>
     </div>
     <br>
     <div style="text-align: center;opacity: 20%; color:rgb(230, 230, 230)">
-      MALFRATS INDUSTRIES | 2022
+      WIND23.NL | <span id="year"></span>
     </div>
+    <script>document.querySelector("#year").textContent = new Date().getFullYear();</script>
   </body>
 </html>
