@@ -2,7 +2,7 @@
 ## [🗺 Available here !](https://wind23.nl/osint)
 <img src="assets/osint-map.png" style="width: 85%">
 
-[**Malfrat's OSINT Map**](https://wind23.nl/osint) is **an online tree** of selected useful tools **made for OSINT** purposes,\
+[**wind23's OSINT Map**](https://wind23.nl/osint) is **an online tree** of selected useful tools **made for OSINT** purposes,\
 made to **help you during your investigations** 👀
 
 _It is an up-to-date and remastered version of osintframework.com, which isn't updated anymore.
